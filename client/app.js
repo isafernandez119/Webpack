@@ -8,10 +8,12 @@ const updateWinner = () => {
 };
 
 takeoutBtn.addEventListener("click", () => {
-	voteTakout();
+	voteTakeout();
+	updateWinner();
 });
 
 leftoversBtn.addEventListener("click", () => {
 	voteLeftovers();
+	updateWinner();
 });
 
