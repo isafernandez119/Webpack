@@ -1,6 +1,6 @@
 const winnerText = document.getElementById("winner");
-const leftoversBtn = document.getElementById("takeout");
-const takeoutBtn = document.getElementById("leftovers");
+const leftoversBtn = document.getElementById("leftovers");
+const takeoutBtn = document.getElementById("takeout");
 
 const updateWinner = () => {
 	const currWinner = getWinner();
